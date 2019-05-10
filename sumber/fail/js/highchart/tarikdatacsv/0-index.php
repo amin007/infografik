@@ -52,7 +52,7 @@
 				<div class="col p-4 d-flex flex-column position-static">
 					<h3 class="mb-0">Username:</h3>
 					<h3 class="mb-0">Password:</h3>
-					<a class="dropdown-item" href="2.1-oil-palm-canopy-biometrics.php">Dashboard</a>
+					<a class="btn btn-primary" href="2.1-oil-palm-canopy-biometrics.php">Dashboard</a>
 				</div>
 			</div>
 		</div>
