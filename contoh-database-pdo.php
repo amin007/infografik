@@ -88,7 +88,9 @@ spl_autoload_register(function ($namaClass)
 	?><tr><?php
 		foreach ( $row[$kira] as $key=>$data )
 		{
-			echo '<td>' . $data . '</td>';
+			echo ($key=='Tree_ID') ?
+				'<th>ID ' . $data . '</th>'
+				: '<td>' . $data . '</td>';
 		}
 		?></tr>
 	<?php
