@@ -27,7 +27,7 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
 	<a class="navbar-brand" href="#">
 		<?php echo $iconFA['video'] ?></a>
-	<a class="navbar-brand" href="#">
+	<a class="navbar-brand" href="0-index.php">
 		<i class="fa fa-times fa-2x" aria-hidden="true"></i>Keluar</a>
 
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -50,12 +50,11 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 
 	<div class="collapse navbar-collapse" id="navbarCollapse">
 		<ul class="navbar-nav mr-auto">
-		<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-		<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+		<!-- li class="nav-item"><a class="nav-link" href="#">Link</a></li -->
 		<!-- li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li -->
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laporan 1</a>
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 1</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				<a class="dropdown-item" href="3-first-scan-frond-number.html">Frond Number</a>
 				<a class="dropdown-item" href="4-first-scan-frond-angle.html">Frond Angle</a>
@@ -68,7 +67,7 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 		</li>
 		<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laporan 2</a>
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 2</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				<a class="dropdown-item" href="3-first-scan-frond-number.php">Frond Number</a>
 				<a class="dropdown-item" href="4-first-scan-frond-angle.php">Frond Angle</a>
@@ -77,6 +76,14 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 				<a class="dropdown-item" href="7-first-scan-canopy850.php">Canopy850</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Palm Oil</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="8-oil-palm-status.php">Status</a>
+				<a class="dropdown-item" href="9-oil-palm-monitoring.php">Monitoring</a>
 			</div>
 		</li>
 		</ul>
