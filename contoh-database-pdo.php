@@ -102,7 +102,8 @@ spl_autoload_register(function ($namaClass)
 #---------------------------------------------------------------------------------------------------
 ## mula panggil koding
 $tanya = new \Aplikasi\Kitab\Tanya();
-$jadual = 'data01'; $medan = 'Tree_ID,Fronds_no';  $carian = $susun = null;
+$jadual = 'data01'; $medan = 'Tree_ID,Fronds_no';
+$carian = $susun = null;
 $senarai['data01'] = $tanya->//cariSql
 	cariSemuaData
 	($jadual, $medan, $carian, $susun);
