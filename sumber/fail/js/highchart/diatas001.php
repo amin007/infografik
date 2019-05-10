@@ -82,6 +82,7 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Palm Oil</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="2.1-oil-palm-canopy-biometrics.php">Canopy Biometrics</a>
 				<a class="dropdown-item" href="8-oil-palm-status.php">Status</a>
 				<a class="dropdown-item" href="9-oil-palm-monitoring.php">Monitoring</a>
 			</div>
