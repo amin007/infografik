@@ -57,10 +57,7 @@ Highcharts.chart('container',
 	title: { text: 'TreeID and Angle'  },
 	yAxis: {
 		allowDecimals: false,
-		title: { 
-			text: 'Angel' 
-			//text : this.point.y,
-		}
+		title: { text: '' }
 	},
 	plotOptions: {
 		series: {

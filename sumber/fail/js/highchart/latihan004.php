@@ -55,10 +55,7 @@ Highcharts.chart('container',
 	title: { text: 'TreeID and Pixels'  },
 	yAxis: {
 		allowDecimals: false,
-		title: { 
-			text: 'Pixels' 
-			//text : this.point.y,
-		}
+		title: { text: '' }
 	},
 	plotOptions: {
 		series: {

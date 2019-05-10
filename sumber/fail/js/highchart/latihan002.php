@@ -56,7 +56,7 @@
 	title: { text: 'Data tarik dari HTML table dalam halaman ini'  },
 	yAxis: {
 		allowDecimals: false,
-		title: { text: 'Fronds_no' }
+		title: { text: '' }
 	},
 	plotOptions: {
 		series: {
