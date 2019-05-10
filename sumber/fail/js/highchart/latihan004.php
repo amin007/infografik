@@ -3,7 +3,8 @@
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <table id="datatable">
-<thead><tr><th></th><th>TreeID</th></tr></thead><tbody>
+<thead><tr><th></th><th>TreeID</th></tr></thead>
+<tbody>
 	<tr><th>ID 74</th><td>91169</td></tr>
 	<tr><th>ID 83</th><td>87621</td></tr>
 	<tr><th>ID 84</th><td>82545</td></tr>
@@ -43,7 +44,8 @@
 	<tr><th>ID 413</th><td>66991</td></tr>
 	<tr><th>ID 1310</th><td>72277</td></tr>
 	<tr><th>ID 1412</th><td>72063</td></tr>
-	<tr><th>ID 1415</th><td>67078</td></tr></tbody>
+	<tr><th>ID 1415</th><td>67078</td></tr>
+</tbody>
 </table>
 
 <?php include 'dibawah.php'; ?>
