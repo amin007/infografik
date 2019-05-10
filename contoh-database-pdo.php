@@ -106,6 +106,3 @@ $senarai['data01'] = $tanya->//cariSql
 	($jadual, $medan, $carian, $susun);
 //semakPembolehubah($hasil,'hasil');
 paparSenarai($senarai);
-
-
-
