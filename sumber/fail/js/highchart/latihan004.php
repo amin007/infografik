@@ -52,7 +52,7 @@ Highcharts.chart('container',
 {
 	data: { table: 'datatable' },
 	chart: { type: 'column' },
-	title: { text: 'TreeID and Pixels'  },
+	title: { text: 'First scan - Crown Pixel'  },
 	yAxis: {
 		allowDecimals: false,
 		title: { text: '' }

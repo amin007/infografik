@@ -53,7 +53,7 @@
 	Highcharts.chart('container', {
 	data: { table: 'datatable' },
 	chart: { type: 'column' },
-	title: { text: 'Data tarik dari HTML table dalam halaman ini'  },
+	title: { text: 'First scan - Frond Number'  },
 	yAxis: {
 		allowDecimals: false,
 		title: { text: '' }

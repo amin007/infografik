@@ -53,7 +53,7 @@ Highcharts.chart('container',
 {
 	data: { table: 'datatable' },
 	chart: { type: 'column' },
-	title: { text: 'TreeID and 200cm' },
+	title: { text: 'First scan - Canopy200cm' },
 	yAxis: {
 		allowDecimals: false,
 		title: { text: '' }

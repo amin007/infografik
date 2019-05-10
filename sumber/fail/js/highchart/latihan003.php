@@ -54,7 +54,7 @@ Highcharts.chart('container',
 {
 	data: { table: 'datatable' },
 	chart: { type: 'column' },
-	title: { text: 'TreeID and Angle'  },
+	title: { text: 'First scan - Frond Angle' },
 	yAxis: {
 		allowDecimals: false,
 		title: { text: '' }
