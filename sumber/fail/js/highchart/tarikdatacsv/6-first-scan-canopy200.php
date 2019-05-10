@@ -1,4 +1,7 @@
-<?php include '../diatas.php' ?>
+<?php
+//include '../diatas.php';
+include '../diatas001.php';
+?>
 
 <!-- x. Add the container -->
 <div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>

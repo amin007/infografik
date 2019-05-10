@@ -1,7 +1,10 @@
-<?php include '../diatas001.php' ?>
+<?php
+//include '../diatas.php';
+include '../diatas001.php';
+?>
 
 <!-- x. Add the container -->
-<div id="container" style="width: 800px; height: 400px; margin: 0 auto"></div>
+<div id="container" style="width: 900px; height: 500px; margin: 0 auto"></div>
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script -->
