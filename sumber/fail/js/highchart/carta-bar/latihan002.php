@@ -1,7 +1,6 @@
-<?php include 'diatas.php'; ?>
+<?php include '../diatas.php'; ?>
 
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
 <table id="datatable">
 <thead><tr><th></th><th>Tree ID</th></tr></thead>
 <tbody>
@@ -48,7 +47,7 @@
 </tbody>
 </table>
 
-<?php include 'dibawah.php'; ?>
+<?php include '../dibawah.php'; ?>
 <script type="text/javascript">
 	Highcharts.chart('container', {
 	data: { table: 'datatable' },
