@@ -60,12 +60,12 @@ spl_autoload_register(function ($namaClass)
 				$tajukjadual = '<span class="badge badge-success">' . $myTable . '</span>'
 				. "\r" . '<span class="badge">' . count($row) . '</span>';
 				echo "\n";
-				paparJadual($tajukjadual,$row);
+				paparJadual($myTable,$tajukjadual,$row);
 			} // if ( count($row)==0 )
 		}
 	}
 #---------------------------------------------------------------------------------------------------
-	function paparJadual($tajukjadual,$row)
+	function paparJadual($myTable,$tajukjadual,$row)
 	{
 		?><!-- Jadual <?php echo $myTable ?> ########################################### -->
 	<table class="excel" id="example">
