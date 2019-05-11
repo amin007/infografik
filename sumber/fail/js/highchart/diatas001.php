@@ -9,6 +9,7 @@
 echo $namafail = basename($_SERVER['PHP_SELF']);//Returns The Current PHP File Name
 $iconFA['home2'] = '<i class="fa fa-home fa-2x" aria-hidden="true"></i>';
 $iconFA['video'] = '<i class="fas fa-video"></i>';
+$iconFA['pagelines'] = '<i class="fab fa-pagelines"></i>';
 $iconFA['search'] = '<i class="fas fa-search"></i>';
 $iconFA['User'] = '<i class="fas fa-user"></i>';
 $iconFA['Barcode'] = '<i class="fas fa-barcode"></i>';
@@ -26,7 +27,7 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 <!-- //////////////////////////////////////////////////////////////////////////////////// -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
 	<a class="navbar-brand" href="#">
-		<?php echo $iconFA['video'] ?></a>
+		<?php echo $iconFA['pagelines'] ?>Oil Palm</a>
 	<a class="navbar-brand" href="0-index.php">
 		<i class="fa fa-times fa-2x" aria-hidden="true"></i>Keluar</a>
 
