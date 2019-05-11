@@ -22,7 +22,7 @@ $(document).ready(function() {
 			chart: { type: 'column'},
 			data: { csv: csv} ,
 			title: {
-				text: 'Canopy 200cm'
+				text: 'First Scan - Canopy 200cm'
 			},
 			yAxis: {
 				allowDecimals: false,

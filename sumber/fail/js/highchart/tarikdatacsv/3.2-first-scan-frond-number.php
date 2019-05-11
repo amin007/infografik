@@ -22,7 +22,7 @@ $(document).ready(function() {
 			chart: { type: 'column'},
 			data: { csv: csv} ,
 			title: {
-				text: 'Frond Number'
+				text: 'First Scan - Frond Number'
 			},
 			yAxis: {
 				allowDecimals: false,

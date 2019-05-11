@@ -22,7 +22,7 @@ $(document).ready(function() {
 			chart: { type: 'column'},
 			data: { csv: csv} ,
 			title: {
-				text: 'Crown Pixel'
+				text: 'First Scan - Crown Pixel'
 			},
 			yAxis: {
 				allowDecimals: false,

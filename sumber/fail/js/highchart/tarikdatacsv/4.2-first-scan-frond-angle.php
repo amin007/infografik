@@ -22,7 +22,7 @@ $(document).ready(function() {
 			chart: { type: 'column'},
 			data: { csv: csv} ,
 			title: {
-				text: 'Frond Angel'
+				text: 'First Scan - Frond Angel'
 			},
 			yAxis: {
 				allowDecimals: false,
