@@ -56,11 +56,11 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 1</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="3-first-scan-frond-number.html">Frond Number</a>
-				<a class="dropdown-item" href="4-first-scan-frond-angle.html">Frond Angle</a>
-				<a class="dropdown-item" href="5-first-scan-crown-pixel.html">Crown Pixel</a>
-				<a class="dropdown-item" href="6-first-scan-canopy200.html">Canopy200</a>
-				<a class="dropdown-item" href="7-first-scan-canopy850.html">Canopy850</a>
+				<a class="dropdown-item" href="3.1-first-scan-frond-number.php">Frond Number</a>
+				<a class="dropdown-item" href="4.1-first-scan-frond-angle.php">Frond Angle</a>
+				<a class="dropdown-item" href="5.1-first-scan-crown-pixel.php">Crown Pixel</a>
+				<a class="dropdown-item" href="6.1-first-scan-canopy200.php">Canopy200</a>
+				<a class="dropdown-item" href="7.1-first-scan-canopy850.php">Canopy850</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="#">Something else here</a>
 			</div>
@@ -69,11 +69,11 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 2</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				<a class="dropdown-item" href="3-first-scan-frond-number.php">Frond Number</a>
-				<a class="dropdown-item" href="4-first-scan-frond-angle.php">Frond Angle</a>
-				<a class="dropdown-item" href="5-first-scan-crown-pixel.php">Crown Pixel</a>
-				<a class="dropdown-item" href="6-first-scan-canopy200.php">Canopy200</a>
-				<a class="dropdown-item" href="7-first-scan-canopy850.php">Canopy850</a>
+				<a class="dropdown-item" href="3.2-first-scan-frond-number.php">Frond Number</a>
+				<a class="dropdown-item" href="4.2-first-scan-frond-angle.php">Frond Angle</a>
+				<a class="dropdown-item" href="5.2-first-scan-crown-pixel.php">Crown Pixel</a>
+				<a class="dropdown-item" href="6.2-first-scan-canopy200.php">Canopy200</a>
+				<a class="dropdown-item" href="7.2-first-scan-canopy850.php">Canopy850</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="#">Something else here</a>
 			</div>
@@ -88,6 +88,12 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 			</div>
 		</li>
 		</ul>
+	</div>
+</nav>
+<br>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+<?php
+/*
 
 	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ --
 		<ul class="nav navbar-nav navbar-right">
@@ -138,7 +144,4 @@ $nav = 'class="dropdown-toggle" data-toggle="dropdown"';
 		</li>
 		</ul>
 		<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
-	</div>
-</nav>
-<br>
-<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+*/
