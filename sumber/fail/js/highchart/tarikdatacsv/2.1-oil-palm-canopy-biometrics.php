@@ -5,7 +5,7 @@ include '../diatas001.php';
 
 <!-- x. Add the container -->
 <div class="container">
-	<h1>Oil Plam Canopy Biometrics</h1>
+	<h1>Oil Palm Canopy Biometrics</h1>
 	<div class="row mb-2">
 	<div class="col-md-6">
 		<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
