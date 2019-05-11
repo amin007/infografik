@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Amin Ledang">
+<title>8-oil-palm-status.php</title>
+<!-- Bootstrap core CSS -->
+<link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+	<a class="navbar-brand" href="#">
+		<i class="fab fa-pagelines"></i>Oil Palm</a>
+	<a class="navbar-brand" href="../../">
+		<i class="fa fa-times fa-2x" aria-hidden="true"></i>Keluar</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<form class="mx-2 my-auto d-inline w-50" action="#" method="POST">
+<div class="input-group">
+	<div class="input-group-btn">
+		<a class="btn btn-info"><i class="fas fa-search"></i></a>
+	</div>
+	<input type="hidden" name="namajadual" value="syarikat">
+	<input type="text" name="jika[cari][1]" placeholder="Cari Apa" class="form-control" />
+	<input type="hidden" name="susun" value="nama ASC">
+</div>
+</form><!-- / class="form-inline" -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+		<!-- li class="nav-item"><a class="nav-link" href="#">Link</a></li -->
+		<!-- li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li -->
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 1</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="../../report/1/first-scan-frond-number">Frond Number</a>
+				<a class="dropdown-item" href="../../report/1/first-scan-frond-angle">Frond Angle</a>
+				<a class="dropdown-item" href="../../report/1/first-scan-crown-pixel">Crown Pixel</a>
+				<a class="dropdown-item" href="../../report/1/first-scan-canopy200">Canopy200</a>
+				<a class="dropdown-item" href="../../report/1/first-scan-canopy850">Canopy850</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report 2</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="../../report/2/first-scan-frond-number">Frond Number</a>
+				<a class="dropdown-item" href="../../report/2/first-scan-frond-angle">Frond Angle</a>
+				<a class="dropdown-item" href="../../report/2/first-scan-crown-pixel">Crown Pixel</a>
+				<a class="dropdown-item" href="../../report/2/first-scan-canopy200">Canopy200</a>
+				<a class="dropdown-item" href="../../report/2/first-scan-canopy850">Canopy850</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Palm Oil</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="../../oil-palm/canopy-biometrics">Canopy Biometrics</a>
+				<a class="dropdown-item" href="../../oil-palm/status">Status</a>
+				<a class="dropdown-item" href="../../oil-palm/monitoring">Monitoring</a>
+			</div>
+		</li>
+		</ul>
+	</div>
+</nav>
+<br>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- x. Add the container -->
+<div class="container">
+	<h1>Oil Palm Status</h1>
+	<div class="row mb-2">
+	<div class="col-md-6">
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<form class="needs-validation" novalidate>
+<div class="mb-3">
+	<label for="username">Frond Number</label>
+	<div class="input-group">
+		<input type="text" class="form-control" id="username" placeholder="***">
+		<div class="input-group-prepend">
+			<span class="input-group-text">Frond Number</span>
+		</div>
+		<div class="invalid-feedback" style="width: 100%;">
+			***
+		</div>
+	</div>
+</div>
+
+<div class="mb-3">
+	<label for="username">Frond Angel</label>
+	<div class="input-group">
+		<input type="text" class="form-control" id="username" placeholder="***">
+		<div class="input-group-prepend">
+			<span class="input-group-text">Frond Angel</span>
+		</div>
+		<div class="invalid-feedback" style="width: 100%;">
+			***
+		</div>
+	</div>
+</div>
+
+<div class="mb-3">
+	<label for="username">Crown Pixel</label>
+	<div class="input-group">
+		<input type="text" class="form-control" id="username" placeholder="***">
+		<div class="input-group-prepend">
+			<span class="input-group-text">Crown Pixel</span>
+		</div>
+		<div class="invalid-feedback" style="width: 100%;">
+			***
+		</div>
+	</div>
+</div>
+
+<div class="mb-3">
+	<label for="username">Canopy200</label>
+	<div class="input-group">
+		<input type="text" class="form-control" id="username" placeholder="***">
+		<div class="input-group-prepend">
+			<span class="input-group-text">Canopy200</span>
+		</div>
+		<div class="invalid-feedback" style="width: 100%;">
+			***
+		</div>
+	</div>
+</div>
+
+<div class="mb-3">
+	<label for="username">Canopy800</label>
+	<div class="input-group">
+		<input type="text" class="form-control" id="username" placeholder="***">
+		<div class="input-group-prepend">
+			<span class="input-group-text">Canopy800</span>
+		</div>
+		<div class="invalid-feedback" style="width: 100%;">
+			***
+		</div>
+	</div>
+</div>
+
+<hr class="mb-4">
+<!-- button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button -->
+</form>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	</div>
+	<div class="col-md-6">
+		<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+			<div class="col p-4 d-flex flex-column position-static">
+				<h2>Techniques:</h2>
+				<form>
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">1. Modelling</span>
+						</div>
+						<div class="invalid-feedback" style="width: 100%;">
+							***
+						</div>
+					</div>
+				</div><!-- /  class="form-group" -->
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">2. Machine learning </span>
+					</div>
+					<select class="form-control" id="exampleFormControlSelect2">
+						<option>Frond Number</option>
+						<option>Frond Angle</option>
+						<option>Crown Pixel</option>
+						<option>Canopy200</option>
+						<option>Canopy800</option>
+					</select>
+					<div class="invalid-feedback" style="width: 100%;">
+						***
+					</div>
+				</div><!-- /  class="form-group" -->
+				<hr class="mb-4"><br><br><br><br><br>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Healthiness levels </span>
+					</div>
+					<input type="checkbox" class="form-control" id="same-address">
+					<div class="invalid-feedback" style="width: 100%;">
+						***
+					</div>
+				</div><!-- /  class="form-group" -->
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</div><!-- ./ class="container" -->
+
+
+<!-- FOOTER -->
+<footer class="footer mt-auto py-3">
+<div class="containerFooter">
+	<p class="float-right"><a href="#">Back to top</a></p>
+	<p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</div><!-- ./ class="container" -->
+</footer>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- //////////////////////////////////////////////////////////////////////////////////// -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="../../../../utama/highchart/7.1.1/code/highcharts.js"></script>
+<script src="../../../../utama/highchart/7.1.1/code/modules/data.js"></script>
+<script src="../../../../utama/highchart/7.1.1/code/modules/exporting.js"></script>
+<script src="../../../../utama/highchart/7.1.1/code/modules/export-data.js"></script>
+</body>
+</html>
